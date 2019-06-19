@@ -34,3 +34,20 @@ plugins: [
   },
 ]
 ```
+## Query for result
+
+Your plugin is ready. Start `gatsby develop` and open a browser at http://localhost:8000/___graphql. The MyMiniFactory data can be queried from here. try:
+
+```graphql
+query MyQuery {
+  allMyMiniFactoryObject {
+    edges {
+      node {
+        id
+        url
+        name
+      }
+    }
+  }
+}
+```
