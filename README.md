@@ -18,7 +18,7 @@ To install the plugin, follow these steps.
 
 ## Configure the plugin
 
-Open `gatsby-config.js` from the root directory of your tutorial site, and add the gatsby-source-mmf plugin inside plugin table:
+Open `gatsby-config.js` from the root directory of your project site, and add the gatsby-source-mmf plugin inside plugin table:
 
 ```javascript
 plugins: [
