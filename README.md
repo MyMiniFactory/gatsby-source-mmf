@@ -26,10 +26,13 @@ plugins: [
   {
     resolve: "gatsby-source-mmf",
     options: {
-      key: "<API-KEY>",
+      name: "MyMiniFactoryObject",
+      url: "https://www.myminifactory.com/api/v2/search",
+      key: <API-KEY>,
       cat: "112",
-      per_page: "16",
+      per_page: "23",
       light: "1",
+      sort: "popularity",
     },
   },
 ]
